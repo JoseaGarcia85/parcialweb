@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendaciones para ver pelis y series en casa</title>
+    <link rel="stylesheet"  href="estilo.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Recomendaciones para ver pelis y series en casa</h1>
+    
+    </header>
+    <audio controls loop>   
+        <source src="Bon Jovi - Wanted Dead or Alive (Lyrics) [HQ].mp3" type="audio/mpeg">
+                    
+    Tu navegador no soporta el elemento de audio.
+    </audio>
+    <nav>
+        <ul>
+            <li><b><a href="#peliculas">Películas</a></b></li>
+            <li><b><a href="#series">Series</a></b></li>
+            <li><b><a href="#Trailers 2023">Trailers 2023</a></b></li>
+            
+           
+        </ul>
+    
+    </nav>
+  
+    <section id="peliculas">
+        
+        <h2 class="titulo-seccion">Películas Recomendadas</h2>
+        
+        <div class="pelicula">
+        <figure>
+            <a href="https://www.youtube.com/watch?v=nwvUdegVfFs" target="_blank">
+                <img src="./Imagenes/Peliculas/matrixresureccion.png" alt="Poster de Matrix Resurrecion" width="400" height="300"><br>
+                <figcaption>Trailer</figcaption><br>
+            </a>
+        </div>
+        </figure>
+        <div class="pelicula">
+        <figure>
+            <a href="https://www.youtube.com/watch?v=4i6ZePa8jz4" target="_blank">
+                <img src="./Imagenes/Peliculas/Deadpool_(2016_poster).png" alt="Póster Deadpool_(2016_poster)" width="250" height="150"><br>
+                <figcaption>Trailer</figcaption><br>
+            </a>
+        </figure>
+        </div>
+        <figure>
+        <div class="pelicula">
+            <a href="https://www.youtube.com/watch?v=oW-vf54cUes" target="_blank">
+                <img src="./Imagenes/Peliculas/Shrek 2.png" alt="Póster Shrek 2" width="400" height="300"><br>
+                <figcaption>Trailer</figcaption><br>
+            </a>
+        </div>
+        </figure>
+    </section>
+    
+    <section id="series">
+        <h2 class="titulo-seccion">Series Recomendadas</h2>
+        <div class="serie">
+        <figure>
+            <a href="https://www.youtube.com/watch?v=8-PTZXcmdOA" target="_blank">
+                <img src="./Imagenes/Series/TheBoys_s2_header.png" alt="Portada de la Serie The boys" width="400" height="300"><br>
+                <figcaption>Trailer</figcaption><br>
+            </a>
+        </div>    
+        </figure>
+        
+        <div class="serie">
+        <figure>
+            <a href="https://www.youtube.com/watch?v=8XFCGvzbJS0" target="_blank">
+                <img src="./Imagenes/Series/Stranger_Things_logo.png" alt="Portada de la Serie Strangers Things" width="400" height="300"><br>
+                <figcaption>Trailer</figcaption><br>
+            </a>
+        </div>
+        </figure>
+
+        <div class="serie">
+        <figure>
+            <a href="https://www.youtube.com/watch?v=IW4KjKZQJAw" target="_blank">
+                <img src="./Imagenes/Series/dark-netflix.jpg" alt="Portada de la Serie Dark" width="350" height="100"><br>
+                <figcaption>Trailer</figcaption><br>
+            </a>
+        </div>
+        </figure>
+    </section>
+    
+    <section id="Trailers 2023">
+        <h2 class="titulo-seccion">Trailers 2023</h2>
+        <video height="590px" controls>       
+            <source src="./Video/MEJORES NUEVOS TRÁILERS (2023).mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </section>    
+   
+    
+    <section id="formulario">
+        <h2 class="titulo-seccion">Formulario de Recomendaciones</h2>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <br>
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required><br>
+            <br>
+            <br>
+            <fieldset>
+            <label>¿Qué tipo de contenido te gusta más?</label><br>
+            <br>
+            <input type="radio" id="peliculas" name="contenido" value="peliculas">
+            <label for="peliculas">Películas</label>
+            <input type="radio" id="series" name="contenido" value="series">
+            <label for="series">Series</label>
+            <input type="radio" id="Otros" name="contenido" value="Otros">
+            <label for="Otros">Otros</label><br>
+            <br>
+            </fieldset>
+            <fieldset>
+            <br>
+            
+            <label>¿Cuáles géneros te interesan?</label><br>
+            <br> 
+            <input type="checkbox" id="accion" name="genero" value="accion">
+            <label for="accion">Acción</label>
+            <input type="checkbox" id="drama" name="genero" value="drama">
+            <label for="drama">Drama</label>
+            <input type="checkbox" id="comedia" name="genero" value="comedia">
+            <label for="comedia">Comedia</label>
+            <input type="checkbox" id="Ciencia Ficción" name="genero" value="Ciencia Ficción">
+            <label for="Ciencia Ficción">Ciencia Ficción</label><br>
+            <br>
+            </fieldset>
+            <br>
+            
+            <label for="favorito">Tu recomendación favorita:</label><br>
+            <input list="opciones" id="favorito" name="favorito">
+            <datalist id="opciones">
+                <option value="Matrix Resureccion">
+                <option value="Deadpool">
+                <option value="Shrek">
+                <option value="The Boys">
+                <option value="Stranger Things">
+                <option value="Dark">
+                <option value="Ninguna">
+
+            </datalist><br>
+            
+            <br>
+            
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" name="comentario" rows="5" cols="50"></textarea><br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Derechos de autor © 2023 - Recomendaciones</p>
+    </footer>
+</body>
+</html>

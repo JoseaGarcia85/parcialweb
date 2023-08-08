@@ -1,0 +1,180 @@
+body {   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("./fondo2.jpg");
+  
+    
+}
+
+header h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(227, 230, 197);
+    margin: 0px;
+    padding: 10px;
+    background-image: url("./Imagenes/head.png");
+    font-size: 3.5rem;
+    background-repeat: none;
+    
+}
+audio {
+    width: 300px;
+    float:right;
+    margin-right: 0px; 
+}
+
+nav ul {
+    text-align:center ;
+    margin: 0px;
+    padding: 7px;
+    border-radius: 12px;
+    box-shadow: rgba(240, 243, 226, 0);
+    background-color: #ebcfcf;
+    font-size: 2.5rem;
+    margin-bottom: 0.6;
+    color: #f8ecec;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 95px;
+    
+}
+
+
+section h2{
+    text-align: center;
+    color: #555;
+}
+figure {
+    margin: 10px;
+    text-align: center;
+    border: #d8d7e7;
+    border-width: 30px;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+figcaption{
+    position:absolute;
+    color: #d3f1b4;
+    font-size: 15px;
+    background-color: #000000;
+    box-sizing: border-box;
+    left: 48%;
+    width: 60px;
+    height: 18px;
+    border-bottom: #8ae430;
+}
+.peliculas {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px; 
+    background-color: #333; 
+    color: white;
+    border: 2px solid #555; 
+    border-radius: 5px; 
+    
+} 
+    
+    .pelicula img {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        max-width: 500px;
+    }
+    .series {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: flex-start;
+    }
+        
+    .serie {
+        flex: 0 0 calc(500px - 30px);
+        text-align: center;
+        margin: 10px;
+    }
+    
+    .serie img {
+        width: 100%; 
+        height: auto;
+        max-height: 400px;
+        max-width: 500px;
+    }
+    
+
+    form {
+        background-color: #d8d7e7;
+        width: auto;
+        border-radius: 20px;
+    }
+    
+    label {
+        text-align:end;
+        padding: 12px;
+        margin: 30px;
+        
+        
+    }
+    
+    input[type="text" ];
+    input[type="radio"];
+    input[type="checkbox"];
+    select,
+    
+    
+    textarea {
+        resize: none;
+        text-align: left;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 12px;
+        height: 150px;
+    }
+    
+    button {
+        background-color: #0c0202;
+        color: #c54949;
+        border:#7187c4 ;
+        padding: 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #0a0606;
+    }
+    
+    button {
+        background-color: #c05454;
+        color: #f1dddd;
+        border:#000000 ;
+        padding: 10px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #555;
+    }
+fieldset{
+    height: 96px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
